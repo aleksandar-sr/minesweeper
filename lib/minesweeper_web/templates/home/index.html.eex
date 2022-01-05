@@ -4,7 +4,7 @@
     <div class="d-flex justify-content-center flex-wrap mt-5">
       <button type="button" class="btn btn-lg btn-warning mt-1 me-2" @click="$store.game.configure({ width: 5, height: 5, number_of_bombs: 3 })">Noob</button>
       <button type="button" class="btn btn-lg btn-success mt-1 me-2" @click="$store.game.configure({ width: 9, height: 9, number_of_bombs: 10 })">Beginner</button>
-      <button type="button" class="btn btn-lg btn-warning mt-1 me-2" @click="$store.game.configure({ width: 16, height: 16, number_of_bombs: 40 })">Champion</button>
+      <button type="button" class="btn btn-lg btn-danger text-white mt-1 me-2" @click="$store.game.configure({ width: 16, height: 16, number_of_bombs: 40 })">Champion</button>
       <button type="button" class="btn btn-lg btn-dark test-white mt-1" @click="$store.game.configure({ width: 30, height: 16, number_of_bombs: 99 })">Big Boss</button>
     </div>
   </template>
