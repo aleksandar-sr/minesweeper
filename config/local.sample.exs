@@ -39,6 +39,6 @@ config :minesweeper, MinesweeperWeb.Endpoint,
   # The base URL at which the application is publicly available. You would
   # typically use the same host as in the configuration of your reverse proxy.
   url: [
-    host: "example.com",
+    host: "localhost",
     port: 443
   ]
